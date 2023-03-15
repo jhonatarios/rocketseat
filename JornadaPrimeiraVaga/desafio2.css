@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background-image: url(https://i.ibb.co/BVBF50V/background-image-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+h1{
+    font-size: 64px;
+    line-height: 120px;
+    font-family: 'Beth Ellen', cursive;
+    padding-bottom: 20px;
+}
+
+h1 span{
+    color: #5EEAD4;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+    margin: 4px;
+}
+
+a:hover,
+.btn-primary{
+    background-color: #5EEAD4;
+    color: #0B0C0E;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    background-color: #0B0C0E;
+    color: #5EEAD4;
+}
+
+div{align-self: center;}
