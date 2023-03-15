@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    text-align: center;
+    padding-top: 160px;
+    background-image: url(https://i.ibb.co/BCxhFKV/pexels-spencer-davis-4356144.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 76px;
+    line-height: 92px;
+    text-transform: capitalize;
+}
+
+h1 span{
+    color: #ff0080;
+}
+
+p{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    opacity: .8;
+}
+
+a{
+    font-family: 'Merriweather', serif;
+    padding: 12px 32px;
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+a:hover,
+.btn-primary{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff0080;
+    opacity: 1;
+    border-radius: 50vh;
+}
